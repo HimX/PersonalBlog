@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+
+        <nav>
+            <a href="../index.html" title="Inicio">Inicio</a>
+            <a href="./html5.html" title="HTML5">HTML5</a>
+            <a href="./css.html" title="CSS3">CSS3</a>
+            <a href="./javascript.html" title="JavaScript">JavaScript</a>
+            <a href="./contact.html" title="Contacto" class="active">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Main content -->
+        <main class="main">
+            <form action="" method="post">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Nombres</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="name" id="name" placeholder="Tu nombre">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="last-name">Apellidos</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="last_name" id="last-name" placeholder="Tu apellido">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="birthday">Fecha de nacimiento</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" name="birthday" id="birthday">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Correo electrónico</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" name="email" id="email" placeholder="ejemplo@dominio.com">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="side"></aside>
+    </div>
+
+    <footer>
+        <p>
+            Hecho con ❤️ por <a href="mailto:fe.gomez.corter@gmail.com">Emanuel Gómez Cortés</a>
+        </p>
+    </footer>
+</body>
+
+</html>
